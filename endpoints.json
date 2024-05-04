@@ -1,0 +1,29 @@
+{
+    "endpoints": [
+        {
+            "method": "GET",
+            "path": "/brinquedos",
+            "description": "Retorna uma lista de todos os brinquedos."
+        },
+        {
+            "method": "GET",
+            "path": "/brinquedos/{id}",
+            "description": "Retorna os detalhes de um brinquedo específico com o ID fornecido."
+        },
+        {
+            "method": "POST",
+            "path": "/brinquedos",
+            "description": "Cria um novo brinquedo com base nos dados fornecidos no corpo da requisição."
+        },
+        {
+            "method": "DELETE",
+            "path": "/brinquedos/{id}",
+            "description": "Deleta o brinquedo com o ID fornecido."
+        },
+        {
+            "method": "PUT",
+            "path": "/brinquedos/{id}",
+            "description": "Atualiza as informações de um brinquedo existente com o ID fornecido, utilizando os dados fornecidos no corpo da requisição."
+        }
+    ]
+}
